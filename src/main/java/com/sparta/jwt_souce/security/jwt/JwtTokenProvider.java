@@ -1,4 +1,4 @@
-package com.miniproject.spring.security.jwt;
+package com.sparta.jwt_souce.security.jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;

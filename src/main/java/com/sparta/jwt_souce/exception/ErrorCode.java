@@ -1,4 +1,4 @@
-package com.miniproject.spring.exception;
+package com.sparta.jwt_souce.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,5 +1,4 @@
-package com.miniproject.spring.dto;
-
+package com.sparta.jwt_souce.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

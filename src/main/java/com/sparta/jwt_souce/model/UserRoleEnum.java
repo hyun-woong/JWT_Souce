@@ -1,4 +1,5 @@
-package com.miniproject.spring.model;
+package com.sparta.jwt_souce.model;
+
 
 public enum UserRoleEnum {
     USER,

@@ -1,6 +1,6 @@
-package com.miniproject.spring.security;
+package com.sparta.jwt_souce.security;
 
-import com.miniproject.spring.model.User;
+import com.sparta.jwt_souce.model.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

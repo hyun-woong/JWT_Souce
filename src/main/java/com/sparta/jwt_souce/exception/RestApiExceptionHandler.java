@@ -1,4 +1,4 @@
-package com.miniproject.spring.exception;
+package com.sparta.jwt_souce.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

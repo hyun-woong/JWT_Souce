@@ -1,6 +1,6 @@
-package com.miniproject.spring.repository;
+package com.sparta.jwt_souce.repository;
 
-import com.miniproject.spring.model.User;
+import com.sparta.jwt_souce.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
