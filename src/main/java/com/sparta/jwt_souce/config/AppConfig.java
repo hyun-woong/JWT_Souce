@@ -12,7 +12,7 @@ import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 public class AppConfig {
 
     @Bean
-    @Primary
+    @Primary //같은 타입의 빈이 여러 개 있을 때, @Qualifier을 지정해 주지 않을 경우를 대비, 해당 빈을 우선적으로 선택하라는 뜻
     public ObjectMapper objectMapper() {
         return new Jackson2ObjectMapperBuilder()
                 .featuresToDisable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS)
