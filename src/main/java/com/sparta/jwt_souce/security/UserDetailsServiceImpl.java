@@ -1,7 +1,7 @@
-package com.miniproject.spring.security;
+package com.sparta.jwt_souce.security;
 
-import com.miniproject.spring.model.User;
-import com.miniproject.spring.repository.UserRepository;
+import com.sparta.jwt_souce.model.User;
+import com.sparta.jwt_souce.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

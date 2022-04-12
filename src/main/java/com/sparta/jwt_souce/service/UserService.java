@@ -1,12 +1,13 @@
-package com.miniproject.spring.service;
+package com.sparta.jwt_souce.service;
 
-import com.miniproject.spring.dto.SignUpRequestDto;
-import com.miniproject.spring.dto.UserRequestDto;
-import com.miniproject.spring.exception.ErrorCode;
-import com.miniproject.spring.exception.HanghaeMiniException;
-import com.miniproject.spring.model.User;
-import com.miniproject.spring.model.UserRoleEnum;
-import com.miniproject.spring.repository.UserRepository;
+
+import com.sparta.jwt_souce.dto.SignUpRequestDto;
+import com.sparta.jwt_souce.dto.UserRequestDto;
+import com.sparta.jwt_souce.exception.ErrorCode;
+import com.sparta.jwt_souce.exception.HanghaeMiniException;
+import com.sparta.jwt_souce.model.User;
+import com.sparta.jwt_souce.model.UserRoleEnum;
+import com.sparta.jwt_souce.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

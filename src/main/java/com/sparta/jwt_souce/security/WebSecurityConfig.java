@@ -1,7 +1,7 @@
-package com.miniproject.spring.security;
+package com.sparta.jwt_souce.security;
 
-import com.miniproject.spring.security.jwt.JwtAuthenticationFilter;
-import com.miniproject.spring.security.jwt.JwtTokenProvider;
+import com.sparta.jwt_souce.security.jwt.JwtAuthenticationFilter;
+import com.sparta.jwt_souce.security.jwt.JwtTokenProvider;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

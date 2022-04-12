@@ -1,4 +1,4 @@
-package com.miniproject.spring.config;
+package com.sparta.jwt_souce.config;
 
 import com.fasterxml.jackson.core.SerializableString;
 import com.fasterxml.jackson.core.io.CharacterEscapes;

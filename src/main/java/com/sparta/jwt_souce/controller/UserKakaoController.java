@@ -1,4 +1,4 @@
-package com.miniproject.spring.controller;
+package com.sparta.jwt_souce.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.miniproject.spring.model.User;

@@ -1,13 +1,13 @@
-package com.miniproject.spring.service;
+package com.sparta.jwt_souce.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.miniproject.spring.dto.KakaoUserInfoDto;
-import com.miniproject.spring.model.User;
-import com.miniproject.spring.model.UserRoleEnum;
-import com.miniproject.spring.repository.UserRepository;
-import com.miniproject.spring.security.UserDetailsImpl;
+import com.sparta.jwt_souce.dto.KakaoUserInfoDto;
+import com.sparta.jwt_souce.model.User;
+import com.sparta.jwt_souce.model.UserRoleEnum;
+import com.sparta.jwt_souce.repository.UserRepository;
+import com.sparta.jwt_souce.security.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;

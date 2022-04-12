@@ -1,13 +1,13 @@
-package com.miniproject.spring.controller;
+package com.sparta.jwt_souce.controller;
 
-import com.miniproject.spring.dto.SignUpRequestDto;
-import com.miniproject.spring.dto.UserRequestDto;
-import com.miniproject.spring.exception.ErrorCode;
-import com.miniproject.spring.exception.HanghaeMiniException;
-import com.miniproject.spring.model.User;
-import com.miniproject.spring.security.UserDetailsImpl;
-import com.miniproject.spring.security.jwt.JwtTokenProvider;
-import com.miniproject.spring.service.UserService;
+import com.sparta.jwt_souce.dto.SignUpRequestDto;
+import com.sparta.jwt_souce.dto.UserRequestDto;
+import com.sparta.jwt_souce.exception.ErrorCode;
+import com.sparta.jwt_souce.exception.HanghaeMiniException;
+import com.sparta.jwt_souce.model.User;
+import com.sparta.jwt_souce.security.UserDetailsImpl;
+import com.sparta.jwt_souce.security.jwt.JwtTokenProvider;
+import com.sparta.jwt_souce.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.GetMapping;
